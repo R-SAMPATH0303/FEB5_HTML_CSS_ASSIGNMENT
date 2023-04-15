@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feb 5 HTML CSS PROJECT</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url("bg.png");
+            background-size: cover;
+            background-position: 3% 3%;
+        }
+        .navbar{
+            background-color: black;
+            height: 10vh;
+            display: flex;
+        }
+        .logo{
+            height: 80%;
+            width: 10%;
+            margin-left: 4%;
+            margin-top: 0.5%;
+            margin-bottom: 2%;
+        }
+        ul{
+            display: flex;
+            margin-top: 1.5%;
+        }
+        a{
+            text-decoration: none;
+            padding-left: 10%;
+        }
+        li{
+            color: white;
+            list-style: none;
+            font-weight: 600;
+        }
+        li:hover{
+            text-decoration: underline;
+            text-decoration-color: aqua;
+        }
+        .buy{
+            height: 69%;
+            width:10%;
+            margin-left: 48%; 
+            margin-top: 0.8%;     
+            background-color:darkorchid;
+            border-radius:1em;
+            font-weight:900;
+            color: white;
+        }
+        .buy:hover{
+            transition:ease-in-out;
+            border-color: aqua;
+            cursor: pointer;
+        }
+        .content{
+           text-align: center;
+           margin-top: 10%;
+        }
+        h1{
+            font-size:10vh;
+            font-weight: 900;
+            color: white;
+            text-align: center;
+            margin-left: 28%;
+            margin-right: 24%;
+            margin-bottom: 0.1%;
+        }
+        p{
+            color: white;
+            margin-left: 2%;
+            font-weight: 400;
+            font-size: 3.5vh;
+        }
+        .request{
+             background-color: darkorchid;
+             height: 6.5vh;
+             width: 18vw;
+             border-radius: 0.5em;
+             color: white;
+             font-weight:900;
+             padding:0.5%;
+             font-size: medium;
+        }
+        .request:hover{
+            transition:ease-in-out;
+            border-color: aqua;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo3rdFeb.png" alt="logo" class="logo">
+        <ul>
+            <a href="#"><li>Apps</li></a>
+            <a href="#"><li>DAO</li></a>
+            <a href="#"><li>Technology</li></a>
+            <a href="#"><li>Token</li></a>
+            <a href="#"><li>Contributors</li></a>
+        </ul>
+        <button class="buy">Buy 1 Token</button>
+    </div>
+    <main class="content">
+        <h1>
+            Lets build a better tomorrow, together.
+        </h1>
+        <p>
+            Buy 1 Token. Join the DAO. Change the world
+        </p>
+        <button class="request">Request Early access</button>
+    </main>
+</body>
+</html>
